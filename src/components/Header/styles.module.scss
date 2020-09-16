@@ -1,0 +1,62 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: #FFFFFF;
+  margin-bottom: 20px;
+  height: 56px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  >div {
+    display: flex;
+    justify-content: space-between;
+    >div {
+      display: flex;
+    }
+    .logo {
+      margin: 16px 0;
+    }
+    .message {
+      display: flex;
+      align-items: center;
+      width: 172px;
+      // height: 36px;
+      margin: 10px 0;
+      margin-right: 41px;
+      border: 1px solid #DDDDDD;;
+      padding: 6px 12px;
+      background: #F8F8F8;
+      box-sizing: border-box;
+      border-radius: 6px;
+      div {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #959595;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+      }
+    }
+    .profile {
+      display: flex;
+      margin: 10px 0;
+      &Name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1D1C1D
+      }
+      &Position {
+        font-weight: normal;
+        font-size: 14px;
+        color: #959595;
+        text-align: right;
+      }
+      &Avatar {
+        margin: 0 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.blockContent {
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+    height: 200px;
+    // div {
+    //   font-size: 14px;
+    //   line-height: 17px;
+    //   letter-spacing: 0.03em;
+    //   text-align: center;
+    //   span {
+    //   font-weight: bold;
+    //   color: #FF4C00;
+    //   background: #FFEEE6;
+    //   border-radius: 6px;
+    //   padding: 3px 8px;
+    //   }
+    // }
+    .calendar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &Date {
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        border-radius: 7px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        &Month {
+          padding: 3px 7px;
+          font-weight: 900;
+          font-size: 11px;
+          line-height: 13px;
+          text-align: center;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          background: #DE2F2F;
+          border-radius: 7px 7px 0px 0px;
+        }
+        &Num {
+          padding: 5px 9px;
+          color: #1D1C1D;
+          font-weight: 900;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          letter-spacing: 0.12em;
+          text-transform: uppercase;
+        }
+      }
+      &Time {
+        margin-bottom: 26px;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #616061;
+      }
+      &Title {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.03em;
+        color: #000000;
+      }
+    }
+  }

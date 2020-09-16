@@ -1,0 +1,21 @@
+.blockContent {
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+    height: 200px;
+    div {
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      span {
+      font-weight: bold;
+      color: #FF4C00;
+      background: #FFEEE6;
+      border-radius: 6px;
+      padding: 3px 8px;
+      }
+    }
+  }

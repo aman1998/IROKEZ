@@ -1,0 +1,28 @@
+.block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 443px auto auto;
+  grid-gap: 20px;
+  grid-template-areas: "Absent Absent Absent"
+                      "Request Calendar Base"
+                      "Events Events Notification";
+  &Absent {
+    grid-area: Absent;
+    background: red;
+  }
+  &Request {
+    grid-area: Request;
+    background: green;
+  }
+  &Calendar {
+    grid-area: Calendar;
+    background: yellow;
+  }
+  &Base {
+    grid-area: Base;
+    background: #234232;
+  }
+  &Events {
+    grid-area: Events;
+  }
+}

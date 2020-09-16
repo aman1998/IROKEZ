@@ -1,0 +1,59 @@
+.block {
+  padding: 0 20px;
+  height: 661px;
+  overflow: auto;
+  .content {
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 20px;
+    margin-bottom: 24px;
+    &Text {
+      margin-left: 10px;
+      &Name {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1D1C1D;
+        span {
+          margin-left: 10px;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: -0.078px;
+          color: #616061;
+        }
+      }
+      &Theme {
+        background: rgba(45, 156, 219, 0.1);
+        border-radius: 6px;
+        padding: 3px 10px;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 125%;
+        letter-spacing: 0.05em;
+        color: #2F80ED;
+        margin: 3px 0 10px 0;
+      }
+      &Task {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.38px;
+        color: #1D1C1D;
+      }
+      &Team {
+        margin-top: 3px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.38px;
+        color: #616061;
+      }
+    }
+  }
+  .content:nth-child(1) {
+    border-top: none;
+  }
+}

@@ -1,0 +1,26 @@
+.blockContent {
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+    height: 200px;
+    div {
+      text-align: center;
+    }
+    .base {
+      img {
+        background: #ffffff;
+        margin-bottom: 7px;
+        text-align: center;
+      }
+      div {
+        color: #616061;
+        font-style: Medium;
+        font-size: 14px;
+        line-height: 19.5px;
+        vertical-align: Top;
+        letter-spacing: 0.38px
+      }
+    }
+  }

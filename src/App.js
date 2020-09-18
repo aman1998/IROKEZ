@@ -5,7 +5,7 @@ import InquiriesPage from './pages/inquiriesPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/IROKEZ'>
       <Switch>
         <Route path='/' component={MainPage} exact/>
         <Route path='/absent/vacation' component={MainPage} exact/>

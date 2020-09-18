@@ -1,12 +1,10 @@
 .blockContent {
     border: 1px solid #DDDDDD;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 6px;
-    height: 200px;
+    padding: 58px 41px 80px 41px;
+    height: 200px;;
     div {
       letter-spacing: 0.03em;
+      // max-width: 248px;
       text-align: center;
       span {
       font-weight: bold;

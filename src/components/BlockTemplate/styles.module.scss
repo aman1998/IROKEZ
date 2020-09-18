@@ -2,6 +2,39 @@
   grid-area: Notification;
   background: #FFFFFF;
   border-radius: 6px;
+  position: relative;
+  .chevronLeft {
+  position: absolute;
+  top: 116px;
+  left: 6px;
+  transform: rotate(90deg);
+  }
+  .chevronRight {
+    position: absolute;
+    top: 116px;
+    right: 6px;
+    transform: rotate(-90deg);
+  }
+  .points {
+    display: flex;
+    position: absolute;
+    bottom: 58px;
+    left: 50%;
+    div {
+      width: 6px;
+      height: 6px;
+      background: #DDDDDD;
+      border-radius: 50%;
+      transform: translateX(-50%);
+    }
+    .pointsLeft {
+        margin-right: 5px;
+        background: #FF4C00;
+      }
+    .pontsRight {
+      margin-left: 5px;
+    }
+  }
   &Title {
     display: flex;
     align-items: center;

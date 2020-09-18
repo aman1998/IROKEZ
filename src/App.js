@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter basename='/IROKEZ'>
       <Switch>
-        <Route path='/' component={MainPage} exact/>
+        <Route path='/absent' component={MainPage} exact/>
         <Route path='/absent/vacation' component={MainPage} exact/>
         <Route path='/absent/dayoff' component={MainPage} exact/>
         <Route path='/absent/sick' component={MainPage} exact/>

@@ -21,7 +21,7 @@ const Sidebar = () => {
   const [showSidebarAdmin, setShowSidebarAdmin] = React.useState(true)
 
   const sidebarItem = [
-    { id: 1, link: '/', text: 'Главная', icon: <Fanki /> },
+    { id: 1, link: '/absent', text: 'Главная', icon: <Fanki /> },
     { id: 2, link: '/inquiries', text: 'Запросы', icon: <Flash /> },
     { id: 3, link: '/calendar', text: 'Календарь', icon: <CalendarIcon /> },
     { id: 4, link: '/database', text: 'База знаний', icon: <BookIcon /> },
@@ -64,7 +64,7 @@ const Sidebar = () => {
                 to={item.link}
                 className={styles.sidebarItem}
                 activeClassName={styles.active}
-                exact
+                // exact
               >
                 <div>
                   <div className={styles.sidebarItemIcon}>{item.icon}</div>

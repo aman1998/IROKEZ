@@ -14,7 +14,7 @@ const WorkerItems = ({avatar, name, position, absentDate}) => {
 
       {/* Список всех рабочих с указанием имени, должности, причины пропуска и даты  */}
       <div className={styles.blockWorkersContent}>
-        <Route path='/' exact>
+        <Route path='/absent' exact>
           <Worker 
           name='Никифорова Валентина'
           position='Менеджер по продажам'

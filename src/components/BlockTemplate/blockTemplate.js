@@ -4,7 +4,7 @@ import Chevron from '../../assets/icons/chevron'
 import ChevronIcon from '../../assets/icons/chevron2.svg'
 
 const BlockTemplate = ({children, title, count}) => {
-// Этот компонент будет служить оберткой для блоков в гланом меню
+// Этот компонент будет служить оберткой для блоков в главном меню
   return (
     <div className={styles.block}>
       <div className={styles.blockTitle}>

@@ -11,9 +11,7 @@ const BlockTemplate = ({children, title, count}) => {
         <h2>{title}</h2>
         <span>{count}</span>
       </div>
-      <img src={ChevronIcon} alt='#' className={styles.chevronLeft}/>
       {children}
-      <img src={ChevronIcon} alt='#' className={styles.chevronRight}/>
       {title != 'Водопад событии' ? 
         <div className={styles.blockLink}>
           <div>{title}</div>
@@ -22,11 +20,16 @@ const BlockTemplate = ({children, title, count}) => {
         <div className={styles.blockLink}></div>
       }
 
-      {/* Точки перехода для слайдера */}
-      <div className={styles.points}>
-        <div className={styles.pointsLeft}></div> 
-        <div className={styles.pointsRight}></div> 
-      </div>
+      {/* Стрелки и точки для слайдера */}
+      {title !== 'Водопад событии' && title !== 'Уведомления' ? //Эти 2 блока не имеют слайдер
+      <div>
+        <img src={ChevronIcon} alt='#' className={styles.chevronLeft}/>
+        <img src={ChevronIcon} alt='#' className={styles.chevronRight}/>
+        <div className={styles.points}>
+          <div className={styles.pointsLeft}></div> 
+          <div className={styles.pointsRight}></div> 
+        </div>
+      </div> : ''}
     </div>
   )
 }

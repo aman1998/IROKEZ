@@ -3,6 +3,7 @@ import styles from './styles.module.scss'
 import Chevron from '../../assets/icons/chevron'
 
 const BlockTemplate = ({children, title, count}) => {
+// Этот компонент будет служить оберткой для блоков в гланом меню
   return (
     <div className={styles.block}>
       <div className={styles.blockTitle}>
@@ -10,10 +11,13 @@ const BlockTemplate = ({children, title, count}) => {
         <span>{count}</span>
       </div>
       {children}
-      <div className={styles.blockLink}>
-        <div>{title}</div>
-        <Chevron />
-      </div>
+      {title != 'Водопад событии' ? 
+        <div className={styles.blockLink}>
+          <div>{title}</div>
+          <Chevron />
+        </div> : 
+        <div className={styles.blockLink}></div>
+      }
     </div>
   )
 }

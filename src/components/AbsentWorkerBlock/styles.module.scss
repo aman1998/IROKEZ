@@ -1,0 +1,187 @@
+.block {
+  max-width: 1000px;
+  border: 1px solid #DDDDDD;
+  border-radius: 6px;
+  background: #FFFFFF;
+  height: 443px;
+  &Header {
+    border-radius: 6px 6px 0 0;
+    background: #F5F5F5;
+    &Title {
+      padding: 12px 21px 0 21px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #1D1C1D;
+    }
+    nav {
+      display: flex;
+      // border-bottom: 1px solid #DDDDDD;
+      .navLine1 {
+        width: auto;
+        border-bottom: 1px solid #DDDDDD;
+      }
+      .navLine2 {
+        width: 100%;
+        border-bottom: 1px solid #DDDDDD;
+      }
+      ul {
+        // padding: 0 21px;
+        margin-left: 21px;
+        display: flex;
+        .dayItem {
+          border-radius: 6px 6px 0px 0px;
+          width: 130px;
+          border: 1px solid #DDDDDD;
+           border-bottom: 1px solid #DDDDDD;
+          padding: 12px 0;
+          text-align: center;
+          font-weight: bold;
+          font-size: 13px;
+          line-height: 16px;
+          color: #616061;
+        }
+        .active {
+          top: 10px;
+          color: #1D1C1D;
+          background: #FFFFFF;
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  &Reason {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 21px;
+    margin: 23px 0 10px 0;
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 220px;
+      height:36px;
+      padding: 5px 9px 5px 5px;
+      font-weight: bold;
+      color: #1D1C1D;
+      margin-right: 10px;
+      background: #F8F8F8;
+      // background: rgba(39, 174, 96, 0.1);
+      border-radius: 6px;
+      .nums {
+        font-weight: 500;
+        color: #616061;
+      }
+      .title {
+        border-left: 2px solid #27AE60;
+        height: 26px;
+        padding-left: 8px;
+        padding-top: 5px;
+      }
+    }
+    .activeGreen {
+      background: rgba(39, 174, 96, 0.1);
+    }
+    .activeRed {
+      background: rgba(255, 15, 0, 0.1);
+    }
+    .activeOrange {
+      background: rgba(242, 153, 74, 0.1);
+    }
+    .activeBlue {
+      background: rgba(47, 128, 237, 0.1);
+    }
+    .blockReasonGreen {
+      margin-right: 58px;
+    }
+    .blockReasonRed {
+      margin-right: 0;
+    }
+    .blockReasonRed .title {
+      border-left: 2px solid #FF0F00;
+    }
+    .blockReasonBlue .title {
+      border-left: 2px solid #2F80ED;
+    }
+    .blockReasonOrange .title {
+      border-left: 2px solid #F2994A;
+    }
+  }
+  &Workers {
+    position: relative;
+    .chevronLeft {
+      position: absolute;
+      top: 50%;
+      left: 27px;
+      transform: rotate(90deg);
+    }
+    .chevronRight {
+      position: absolute;
+      top: 50%;
+      right: 27px;
+      transform: rotate(-90deg);
+    }
+    &Content {
+      display: grid;
+      grid-template-columns: repeat(3,auto);
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-auto-flow: column;
+      grid-column-gap: 70px;
+      border: 1px solid #DDDDDD;
+      border-radius: 6px;
+      margin: 0 21px 20px 21px;
+      padding: 22px 94px 0 45px;
+      height: 273px;
+      .worker {
+        margin-bottom: 23px;
+        &Decription {
+          display: flex;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+          div {
+            margin: 0 0 0px 7px;
+          }
+        }
+        &Name {
+          font-weight: bold;
+          color: #1D1C1D;
+        }
+        &Position {
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          color: #616061;
+        }
+        &AbsentDate {
+          margin-top: 7px;
+          display: inline-block;
+          color: #2F80ED;
+          background: rgba(45, 156, 219, 0.1);
+          border-radius: 6px;
+          padding: 3px 6px;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 125%;
+          text-transform: uppercase;
+        }
+        .orange {
+          color: #F2994A;
+          background: rgba(242, 153, 74, 0.1);
+        }
+        .red {
+          color: #FF0F00;
+          background: rgba(255, 15, 0, 0.1);
+        }
+        .vacation {
+          color: #2F80ED;
+          background: rgba(47, 128, 237, 0.1);
+        }
+      }
+    }
+  }
+}

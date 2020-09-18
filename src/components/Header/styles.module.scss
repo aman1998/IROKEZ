@@ -1,7 +1,7 @@
 header {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
   background: #FFFFFF;
   margin-bottom: 20px;
   height: 56px;
@@ -19,7 +19,6 @@ header {
       display: flex;
       align-items: center;
       width: 172px;
-      // height: 36px;
       margin: 10px 0;
       margin-right: 41px;
       border: 1px solid #DDDDDD;;
@@ -29,8 +28,6 @@ header {
       border-radius: 6px;
       div {
         font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
         color: #959595;
       }
       img {
@@ -44,13 +41,10 @@ header {
       margin: 10px 0;
       &Name {
         font-weight: bold;
-        font-size: 14px;
-        line-height: 17px;
         color: #1D1C1D
       }
       &Position {
         font-weight: normal;
-        font-size: 14px;
         color: #959595;
         text-align: right;
       }

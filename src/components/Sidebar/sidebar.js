@@ -40,8 +40,10 @@ const Sidebar = () => {
   ]
   
   return (
-   <aside>
+    <aside>
       <nav className={`${styles.sidebar}`}>
+
+      {/* Навигация для работников */}
         <div>
           <h2 className={styles.sidebarTitle}>
             <div>Компания</div>
@@ -51,28 +53,32 @@ const Sidebar = () => {
               style= { showSidebar ? {transform: 'rotate(-180deg)'} : {transform: 'rotate(360deg)'}}
               />
           </h2>
+
+          {/* В зависимости от значения showSidebar показывается навигация, по умолчанию они показывается */}
           {showSidebar ? 
           <ul className={styles.sidebarItems}>
           {
-                        sidebarItem.map((item) => (
-                          <NavLink
-                            key={item.id}
-                            to={item.link}
-                            className={styles.sidebarItem}
-                            activeClassName={styles.active}
-                            exact
-                          >
-                            <div>
-                              <div className={styles.sidebarItemIcon}>{item.icon}</div>
-                              <div>{item.text}</div>
-                            </div>
-                            {/* <div className={styles.itemHint}><QuestionIcon /></div> */}
-                          </NavLink>
-                        ))
-                    }
+            sidebarItem.map((item) => (
+              <NavLink
+                key={item.id}
+                to={item.link}
+                className={styles.sidebarItem}
+                activeClassName={styles.active}
+                exact
+              >
+                <div>
+                  <div className={styles.sidebarItemIcon}>{item.icon}</div>
+                  <div className={styles.sidebarItemText}>{item.text}</div>
+                </div>
+                <div className={styles.itemHint}><QuestionIcon /></div>
+              </NavLink>
+            ))
+          }
           </ul> : ''}
         </div>
         <div>
+
+        {/* Навигация для администрации */}
           <h2 className={`${styles.sidebarTitle} ${styles.sidebarTitleAdmin}`}>
             <div>Администратор</div>
             <img 
@@ -81,25 +87,27 @@ const Sidebar = () => {
               style= { showSidebarAdmin ? {transform: 'rotate(-180deg)'} : {transform: 'rotate(360deg)'}}
               />
           </h2>
+
+          {/* В зависимости от значения showSidebarAdmin показывается навигация, по умолчанию они показывается */}
           {showSidebarAdmin ?
           <ul className={styles.sidebarItems}>
             {
-                        sidebarItemAdmin.map((item) => (
-                          <NavLink
-                            key={item.id}
-                            to={item.link}
-                            className={styles.sidebarItem}
-                            activeClassName={styles.active}
-                            exact
-                          >
-                            <div>
-                              <div className={styles.sidebarItemIcon}>{item.icon}</div>
-                              <div>{item.text}</div>
-                            </div>
-                            {/* <div className={styles.itemHint}><QuestionIcon /></div> */}
-                          </NavLink>
-                        ))
-                    }
+              sidebarItemAdmin.map((item) => (
+                <NavLink
+                  key={item.id}
+                  to={item.link}
+                  className={styles.sidebarItem}
+                  activeClassName={styles.active}
+                  exact
+                >
+                  <div>
+                    <div className={styles.sidebarItemIcon}>{item.icon}</div>
+                    <div>{item.text}</div>
+                  </div>
+                  <div className={styles.itemHint}><QuestionIcon /></div>
+                </NavLink>
+              ))
+            }
           </ul> : ''}
         </div>
       </nav>

@@ -3,6 +3,8 @@ import Header from '../Header/header'
 import Sidebar from '../Sidebar/sidebar'
 import styles from './styles.module.scss'
 
+// Обертка для всего сайта
+
 const PageTemplate = ({children}) => {
   return (
     <div>

@@ -1,6 +1,6 @@
 .block {
   padding: 0 20px;
-  height: 661px;
+  height: 665px;
   overflow: auto;
   .content {
     display: flex;
@@ -12,13 +12,10 @@
       margin-left: 10px;
       &Name {
         font-weight: 800;
-        font-size: 14px;
-        line-height: 17px;
         color: #1D1C1D;
         span {
           margin-left: 10px;
           font-weight: normal;
-          font-size: 14px;
           line-height: 18px;
           letter-spacing: -0.078px;
           color: #616061;
@@ -38,15 +35,12 @@
       &Task {
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 17px;
         letter-spacing: 0.38px;
         color: #1D1C1D;
       }
       &Team {
         margin-top: 3px;
         font-weight: 500;
-        font-size: 14px;
         line-height: 19px;
         letter-spacing: 0.38px;
         color: #616061;

@@ -1,11 +1,11 @@
 import React from 'react';
 import BlockTemplate from '../BlockTemplate/blockTemplate'
-import Slider from "react-slick";
+import Slider from "react-slick"
 import styles from './styles.module.scss'
 import Chevron from '../../assets/icons/chevron'
 import BookImg from '../../assets/icons/book.svg'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const RequestBlock = () => {
   const settings = {

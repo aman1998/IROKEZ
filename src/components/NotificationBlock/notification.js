@@ -6,6 +6,8 @@ import avatar from '../../assets/icons/1.svg'
 const NotificationBlock = () => {
   return (
     <BlockTemplate title={'Уведомления'} count='2'>
+
+    {/* Блок с уведомлениями */}
       <div className={styles.block}>
         <div className={styles.content}>
           <img src={avatar} alt='#' className={styles.contentAvatar}/>
@@ -18,6 +20,7 @@ const NotificationBlock = () => {
             </div>
           </div>
         </div>
+        
         <div className={styles.content}>
           <img src={avatar} alt='#' className={styles.contentAvatar}/>
           <div className={styles.contentText}>

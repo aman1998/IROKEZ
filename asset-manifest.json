@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/IROKEZ/static/css/main.9554d9ed.chunk.css",
-    "main.js": "/IROKEZ/static/js/main.cb43e67d.chunk.js",
-    "main.js.map": "/IROKEZ/static/js/main.cb43e67d.chunk.js.map",
+    "main.js": "/IROKEZ/static/js/main.a392bfab.chunk.js",
+    "main.js.map": "/IROKEZ/static/js/main.a392bfab.chunk.js.map",
     "runtime-main.js": "/IROKEZ/static/js/runtime-main.d897bdde.js",
     "runtime-main.js.map": "/IROKEZ/static/js/runtime-main.d897bdde.js.map",
     "static/css/2.b7aa0d71.chunk.css": "/IROKEZ/static/css/2.b7aa0d71.chunk.css",
     "static/js/2.691f3df1.chunk.js": "/IROKEZ/static/js/2.691f3df1.chunk.js",
     "static/js/2.691f3df1.chunk.js.map": "/IROKEZ/static/js/2.691f3df1.chunk.js.map",
     "index.html": "/IROKEZ/index.html",
-    "precache-manifest.850b58e23c9b6ec10c328bd3d97cc610.js": "/IROKEZ/precache-manifest.850b58e23c9b6ec10c328bd3d97cc610.js",
+    "precache-manifest.54a5d81d1174da98008e7a976a2f2479.js": "/IROKEZ/precache-manifest.54a5d81d1174da98008e7a976a2f2479.js",
     "service-worker.js": "/IROKEZ/service-worker.js",
     "static/css/2.b7aa0d71.chunk.css.map": "/IROKEZ/static/css/2.b7aa0d71.chunk.css.map",
     "static/css/main.9554d9ed.chunk.css.map": "/IROKEZ/static/css/main.9554d9ed.chunk.css.map",
@@ -35,6 +35,6 @@
     "static/css/2.b7aa0d71.chunk.css",
     "static/js/2.691f3df1.chunk.js",
     "static/css/main.9554d9ed.chunk.css",
-    "static/js/main.cb43e67d.chunk.js"
+    "static/js/main.a392bfab.chunk.js"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/aman1998/IROKEZ/static/css/main.04382ab7.chunk.css",
+    "main.js": "/aman1998/IROKEZ/static/js/main.a4b49dc6.chunk.js",
+    "main.js.map": "/aman1998/IROKEZ/static/js/main.a4b49dc6.chunk.js.map",
+    "runtime-main.js": "/aman1998/IROKEZ/static/js/runtime-main.c464082b.js",
+    "runtime-main.js.map": "/aman1998/IROKEZ/static/js/runtime-main.c464082b.js.map",
+    "static/css/2.0a1e2970.chunk.css": "/aman1998/IROKEZ/static/css/2.0a1e2970.chunk.css",
+    "static/js/2.87f54b0d.chunk.js": "/aman1998/IROKEZ/static/js/2.87f54b0d.chunk.js",
+    "static/js/2.87f54b0d.chunk.js.map": "/aman1998/IROKEZ/static/js/2.87f54b0d.chunk.js.map",
+    "index.html": "/aman1998/IROKEZ/index.html",
+    "precache-manifest.fca47ffd5aa00e7f5acce4383e7a74b6.js": "/aman1998/IROKEZ/precache-manifest.fca47ffd5aa00e7f5acce4383e7a74b6.js",
+    "service-worker.js": "/aman1998/IROKEZ/service-worker.js",
+    "static/css/2.0a1e2970.chunk.css.map": "/aman1998/IROKEZ/static/css/2.0a1e2970.chunk.css.map",
+    "static/css/main.04382ab7.chunk.css.map": "/aman1998/IROKEZ/static/css/main.04382ab7.chunk.css.map",
+    "static/js/2.87f54b0d.chunk.js.LICENSE.txt": "/aman1998/IROKEZ/static/js/2.87f54b0d.chunk.js.LICENSE.txt",
+    "static/media/1.svg": "/aman1998/IROKEZ/static/media/1.e63f9d1f.svg",
+    "static/media/14.svg": "/aman1998/IROKEZ/static/media/14.3c9f3ded.svg",
+    "static/media/26.svg": "/aman1998/IROKEZ/static/media/26.df46a719.svg",
+    "static/media/Emote.svg": "/aman1998/IROKEZ/static/media/Emote.bcb5fa13.svg",
+    "static/media/Logo.svg": "/aman1998/IROKEZ/static/media/Logo.2f1c4f3c.svg",
+    "static/media/Updates.png": "/aman1998/IROKEZ/static/media/Updates.f72d77eb.png",
+    "static/media/arrow.svg": "/aman1998/IROKEZ/static/media/arrow.d5220323.svg",
+    "static/media/avatar.svg": "/aman1998/IROKEZ/static/media/avatar.37671506.svg",
+    "static/media/bell.svg": "/aman1998/IROKEZ/static/media/bell.53a43efc.svg",
+    "static/media/book.svg": "/aman1998/IROKEZ/static/media/book.26458546.svg",
+    "static/media/chevron.svg": "/aman1998/IROKEZ/static/media/chevron.b6d83a5c.svg",
+    "static/media/chevron2.svg": "/aman1998/IROKEZ/static/media/chevron2.dde9d102.svg",
+    "static/media/message.svg": "/aman1998/IROKEZ/static/media/message.717dde49.svg",
+    "static/media/slick-theme.css": "/aman1998/IROKEZ/static/media/slick.f97e3bbf.svg",
+    "static/media/smile.svg": "/aman1998/IROKEZ/static/media/smile.0c1c5a92.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c464082b.js",
+    "static/css/2.0a1e2970.chunk.css",
+    "static/js/2.87f54b0d.chunk.js",
+    "static/css/main.04382ab7.chunk.css",
+    "static/js/main.a4b49dc6.chunk.js"
+  ]
+}

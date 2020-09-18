@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e72714605a1d7a780558b8ec6f76250e",
+    "revision": "0a87144eefbc863da2fdc26a30065395",
     "url": "/IROKEZ/index.html"
   },
   {
-    "revision": "df44b149c61b4a4ff42b",
+    "revision": "e4f3474ca9746ec359c9",
     "url": "/IROKEZ/static/css/2.b7aa0d71.chunk.css"
   },
   {
-    "revision": "f361b469d296597fcb4a",
+    "revision": "e621f0e7ecf354c0f06b",
     "url": "/IROKEZ/static/css/main.9554d9ed.chunk.css"
   },
   {
-    "revision": "df44b149c61b4a4ff42b",
-    "url": "/IROKEZ/static/js/2.691f3df1.chunk.js"
+    "revision": "e4f3474ca9746ec359c9",
+    "url": "/IROKEZ/static/js/2.fd231d88.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/IROKEZ/static/js/2.691f3df1.chunk.js.LICENSE.txt"
+    "url": "/IROKEZ/static/js/2.fd231d88.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f361b469d296597fcb4a",
-    "url": "/IROKEZ/static/js/main.a392bfab.chunk.js"
+    "revision": "e621f0e7ecf354c0f06b",
+    "url": "/IROKEZ/static/js/main.03d6e1cc.chunk.js"
   },
   {
     "revision": "896cabe410a73209edee",

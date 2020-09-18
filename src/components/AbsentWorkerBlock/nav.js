@@ -7,7 +7,7 @@ const Nav = () => {
     // Навигация по отсуствующим рабочим
     <nav className={styles.blockReason}>
       <NavLink 
-        to='/absent'
+        to='/'
         className={styles.blockReasonGreen}
         activeClassName={styles.activeGreen}
         exact

@@ -7,14 +7,14 @@ import Avatar3 from '../../assets/icons/14.svg'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import ChevronIcon from '../../assets/icons/chevron2.svg'
 
-const WorkerItems = ({avatar, name, position, absentDate}) => {
+const WorkerItems = () => {
   return (
     <div className={styles.blockWorkers}>
       <img src={ChevronIcon} alt='#' className={styles.chevronLeft}/>
 
       {/* Список всех рабочих с указанием имени, должности, причины пропуска и даты  */}
       <div className={styles.blockWorkersContent}>
-        <Route path='/absent' exact>
+        <Route path='/' exact>
           <Worker 
           name='Никифорова Валентина'
           position='Менеджер по продажам'

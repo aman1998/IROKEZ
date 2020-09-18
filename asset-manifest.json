@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/IROKEZ/static/css/main.81310c20.chunk.css",
+    "main.css": "/IROKEZ/static/css/main.39091264.chunk.css",
     "main.js": "/IROKEZ/static/js/main.2a905a7d.chunk.js",
     "main.js.map": "/IROKEZ/static/js/main.2a905a7d.chunk.js.map",
     "runtime-main.js": "/IROKEZ/static/js/runtime-main.d897bdde.js",
@@ -9,10 +9,10 @@
     "static/js/2.6fed4117.chunk.js": "/IROKEZ/static/js/2.6fed4117.chunk.js",
     "static/js/2.6fed4117.chunk.js.map": "/IROKEZ/static/js/2.6fed4117.chunk.js.map",
     "index.html": "/IROKEZ/index.html",
-    "precache-manifest.f17e75b4ab9f90ea6b8b594c38645415.js": "/IROKEZ/precache-manifest.f17e75b4ab9f90ea6b8b594c38645415.js",
+    "precache-manifest.9955476dac61a99b4dad836decce8053.js": "/IROKEZ/precache-manifest.9955476dac61a99b4dad836decce8053.js",
     "service-worker.js": "/IROKEZ/service-worker.js",
     "static/css/2.b7aa0d71.chunk.css.map": "/IROKEZ/static/css/2.b7aa0d71.chunk.css.map",
-    "static/css/main.81310c20.chunk.css.map": "/IROKEZ/static/css/main.81310c20.chunk.css.map",
+    "static/css/main.39091264.chunk.css.map": "/IROKEZ/static/css/main.39091264.chunk.css.map",
     "static/js/2.6fed4117.chunk.js.LICENSE.txt": "/IROKEZ/static/js/2.6fed4117.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/IROKEZ/static/media/1.e63f9d1f.svg",
     "static/media/14.svg": "/IROKEZ/static/media/14.3c9f3ded.svg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.d897bdde.js",
     "static/css/2.b7aa0d71.chunk.css",
     "static/js/2.6fed4117.chunk.js",
-    "static/css/main.81310c20.chunk.css",
+    "static/css/main.39091264.chunk.css",
     "static/js/main.2a905a7d.chunk.js"
   ]
 }

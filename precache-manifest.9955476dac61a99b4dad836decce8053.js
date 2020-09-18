@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7cf4b54bcb74fe67a129f930ec39b551",
+    "revision": "90dc9fb22a313ce2189a4f4998376949",
     "url": "/IROKEZ/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IROKEZ/static/css/2.b7aa0d71.chunk.css"
   },
   {
-    "revision": "a29fc2683f4356fd7d02",
-    "url": "/IROKEZ/static/css/main.81310c20.chunk.css"
+    "revision": "8239e8b95d805bc23905",
+    "url": "/IROKEZ/static/css/main.39091264.chunk.css"
   },
   {
     "revision": "bc329cdb6db25261c022",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IROKEZ/static/js/2.6fed4117.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a29fc2683f4356fd7d02",
+    "revision": "8239e8b95d805bc23905",
     "url": "/IROKEZ/static/js/main.2a905a7d.chunk.js"
   },
   {

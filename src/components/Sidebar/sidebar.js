@@ -102,7 +102,7 @@ const Sidebar = () => {
                 >
                   <div>
                     <div className={styles.sidebarItemIcon}>{item.icon}</div>
-                    <div>{item.text}</div>
+                    <div className={styles.sidebarItemText}>{item.text}</div>
                   </div>
                   <div className={styles.itemHint}><QuestionIcon /></div>
                 </NavLink>

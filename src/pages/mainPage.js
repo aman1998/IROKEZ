@@ -13,11 +13,11 @@ const mainPage = () => {
     <PageTemplate>
       <section className={styles.block}>
         <section className={styles.blockAbsent}><AbsentWorkerBlock /></section>
-        <section><RequestBlock /></section>
-        <section><CalendarBlock /></section>
-        <section><BaseBlock /></section>
+        <section className={styles.blockRequest}><RequestBlock /></section>
+        <section className={styles.blockCalendar}><CalendarBlock /></section>
+        <section className={styles.blockBase}><BaseBlock /></section>
         <section className={styles.blockEvents}><EventsBlock /></section>
-        <aside><NotificationBlock /></aside>
+        <aside className={styles.blockNotification}><NotificationBlock /></aside>
       </section>
     </PageTemplate>
   )

@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import { NavLink } from 'react-router-dom' 
+import CalendarIcon from '../../assets/icons/calendar'
+import icon from '../../assets/icons/bell.svg'
 
 const Nav = () => {
   return (
@@ -14,6 +16,7 @@ const Nav = () => {
       > 
         <div className={styles.title}>Все</div> 
         <div className={styles.nums}>23 сотрудника</div>
+        <img src={icon} alt='#' className={styles.icon}/>
       </NavLink>
       <NavLink 
         className={styles.blockReasonBlue}
@@ -22,7 +25,9 @@ const Nav = () => {
         exact
       >
         <div className={styles.title}>В отпуске</div> 
-        <div className={styles.nums}>7 сотрудника</div></NavLink>
+        <div className={styles.nums}>7 сотрудника</div>
+        <img src={icon} alt='#' className={styles.icon}/>
+      </NavLink>
       <NavLink 
         className={styles.blockReasonOrange}
         to='/absent/dayoff'
@@ -31,6 +36,7 @@ const Nav = () => {
       >
         <div className={styles.title}>Отгул</div> 
         <div className={styles.nums}>10 сотрудника</div>
+        <img src={icon} alt='#' className={styles.icon}/>
       </NavLink>
       <NavLink 
         className={styles.blockReasonRed}
@@ -40,6 +46,7 @@ const Nav = () => {
       >
         <div className={styles.title}>Больничный</div> 
         <div className={styles.nums}>Нет</div>
+        <img src={icon} alt='#' className={styles.icon}/>
       </NavLink>
     </nav>
   )

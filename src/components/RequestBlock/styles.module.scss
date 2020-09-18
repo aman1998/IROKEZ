@@ -1,7 +1,13 @@
 .blockContent {
     border: 1px solid #DDDDDD;
     padding: 58px 41px 80px 41px;
-    height: 200px;;
+    height: 200px;
+    @media screen and (max-width: 1120px) {
+      padding: 40px 30px 60px 30px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 58px 61px 80px 61px;
+    }
     div {
       letter-spacing: 0.03em;
       // max-width: 248px;

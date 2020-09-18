@@ -25,9 +25,9 @@ code {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1210px;
   margin: 0 auto;
-  /* padding: 0 15px; */
+  padding: 0 5px;
 }
 
 ul {
@@ -44,4 +44,11 @@ a {
   text-decoration: none;
   color: inherit;
   width: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+.container {
+  max-width: 1075px;
+}
 }

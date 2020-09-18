@@ -8,7 +8,7 @@ import Chevron from '../../assets/icons/chevron.svg'
 const Header = () => {
   return (
     <header>
-      <div className='container'>
+      <div className={`container ${styles.headerWrapper}`}>
         <img src={Logo} className={styles.logo}/>
         <div>
           <div className={styles.message}>

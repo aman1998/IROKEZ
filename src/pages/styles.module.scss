@@ -2,20 +2,29 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
+  max-width: 1000px;
   grid-gap: 20px;
   grid-template-areas: "Absent Absent Absent"
                       "Request Calendar Base"
                       "Events Events Notification";
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "Absent Absent Absent"
+                        "Request Request Request"
+                        "Calendar Calendar Calendar"
+                        "Base Base Base"
+                        "Notification Notification Notification"
+                        "Events Events Events";
+  }
   &Absent {
     grid-area: Absent;
   }
   &Request {
     grid-area: Request;
-    background: green;
   }
   &Calendar {
     grid-area: Calendar;
-    background: yellow;
   }
   &Base {
     grid-area: Base;
@@ -23,5 +32,11 @@
   }
   &Events {
     grid-area: Events;
+  }
+  &Notification {
+    grid-area: Notification;
+  }
+  @media screen and (max-width: 1200px) {
+    // width: 50px;
   }
 }

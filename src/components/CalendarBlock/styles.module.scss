@@ -4,6 +4,9 @@
     justify-content: center;
     padding: 30px 40px 58px 40px;
     height: 200px;
+    @media screen and (max-width: 1120px) {
+      padding: 20px 30px 40px 40px;
+    }
     .calendar {
       display: flex;
       flex-direction: column;
@@ -47,6 +50,9 @@
         text-align: center;
         letter-spacing: 0.06em;
         color: #616061;
+        @media screen and (max-width: 1120px) {
+          margin-bottom: 10px;
+        }
       }
       &Title {
         letter-spacing: 0.03em;

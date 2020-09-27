@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90dc9fb22a313ce2189a4f4998376949",
+    "revision": "920ad6399ace6b6a0c2c052b80259344",
     "url": "/IROKEZ/index.html"
   },
   {
-    "revision": "bc329cdb6db25261c022",
+    "revision": "af4636615f8fdcfbcaa5",
     "url": "/IROKEZ/static/css/2.b7aa0d71.chunk.css"
   },
   {
-    "revision": "8239e8b95d805bc23905",
-    "url": "/IROKEZ/static/css/main.39091264.chunk.css"
+    "revision": "5698717662ff3485cb01",
+    "url": "/IROKEZ/static/css/main.80004ebd.chunk.css"
   },
   {
-    "revision": "bc329cdb6db25261c022",
-    "url": "/IROKEZ/static/js/2.6fed4117.chunk.js"
+    "revision": "af4636615f8fdcfbcaa5",
+    "url": "/IROKEZ/static/js/2.f9fe1e9a.chunk.js"
   },
   {
-    "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/IROKEZ/static/js/2.6fed4117.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/IROKEZ/static/js/2.f9fe1e9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8239e8b95d805bc23905",
-    "url": "/IROKEZ/static/js/main.2a905a7d.chunk.js"
+    "revision": "5698717662ff3485cb01",
+    "url": "/IROKEZ/static/js/main.da066062.chunk.js"
   },
   {
     "revision": "896cabe410a73209edee",
@@ -76,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IROKEZ/static/media/chevron2.dde9d102.svg"
   },
   {
+    "revision": "ebbca5ba1e86e165a78581f33ef074af",
+    "url": "/IROKEZ/static/media/enter.ebbca5ba.svg"
+  },
+  {
     "revision": "717dde4936d349edd198a92400c46a4b",
     "url": "/IROKEZ/static/media/message.717dde49.svg"
+  },
+  {
+    "revision": "314188aeffc121c9208f32fe6864dbcb",
+    "url": "/IROKEZ/static/media/photo1.314188ae.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",

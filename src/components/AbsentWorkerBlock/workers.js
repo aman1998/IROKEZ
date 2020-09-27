@@ -4,7 +4,7 @@ import Worker from './worker'
 import Avatar1 from '../../assets/icons/26.svg'
 import Avatar2 from '../../assets/icons/1.svg'
 import Avatar3 from '../../assets/icons/14.svg'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import ChevronIcon from '../../assets/icons/chevron2.svg'
 
 const WorkerItems = () => {

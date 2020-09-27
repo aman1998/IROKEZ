@@ -53,6 +53,9 @@ header {
     .profile {
       display: flex;
       margin: 10px 0;
+      img {
+        cursor: pointer;
+      }
       &Info {
         @media screen and (max-width: 550px) {
           display: none;

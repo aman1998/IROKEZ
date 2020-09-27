@@ -3,7 +3,7 @@ import PageTemplate from '../components/PageTemplate/pageTemplate'
 
 const inquiriesPage = () => {
   return (
-    <PageTemplate></PageTemplate>
+    <PageTemplate>Здесь пока что пусто</PageTemplate>
   )
 }
 

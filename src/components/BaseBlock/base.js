@@ -1,20 +1,18 @@
 import React from 'react';
 import BlockTemplate from '../BlockTemplate/blockTemplate'
-import Slider from "react-slick"
 import styles from './styles.module.scss'
-import Chevron from '../../assets/icons/chevron'
 import BookImg from '../../assets/icons/book.svg'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 const RequestBlock = () => {
-  const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+  // const settings = {
+  //     dots: true,
+  //     infinite: true,
+  //     speed: 500,
+  //     slidesToShow: 1,
+  //     slidesToScroll: 1
+  //   };
 
   return (
     <BlockTemplate title={'База знаний'} count='2'>

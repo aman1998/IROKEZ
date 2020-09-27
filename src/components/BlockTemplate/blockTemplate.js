@@ -12,7 +12,7 @@ const BlockTemplate = ({children, title, count}) => {
         <span>{count}</span>
       </div>
       {children}
-      {title != 'Водопад событии' ? 
+      {title !== 'Водопад событии' ? 
         <div className={styles.blockLink}>
           <div>{title}</div>
           <Chevron />

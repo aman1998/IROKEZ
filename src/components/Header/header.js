@@ -3,16 +3,17 @@ import styles from './styles.module.scss'
 import Logo from '../../assets/icons/Logo.svg'
 import Bell from '../../assets/icons/bell.svg'
 import Avatar from '../../assets/icons/avatar.svg'
-import Chevron from '../../assets/icons/chevron.svg'
+// import Chevron from '../../assets/icons/chevron.svg'
+import Enter from '../../assets/icons/enter.svg'
 
-const Header = () => {
+const Header = ({getShowLogin}) => {
   return (
     <header>
       <div className={`container ${styles.headerWrapper}`}>
-        <img src={Logo} className={styles.logo}/>
+        <img src={Logo} className={styles.logo} alt='#'/>
         <div>
           <div className={styles.message}>
-            <img src={Bell} className={styles.bell}/>
+            <img src={Bell} className={styles.bell} alt='#'/>
             <div>Сообщений нет</div>
           </div>
           <div className={styles.profile}>
@@ -21,7 +22,8 @@ const Header = () => {
               <div className={styles.profilePosition}>Генеральный директор</div>
             </div>
             <img src={Avatar} alt='#' className={styles.profileAvatar}/>
-            <img src={Chevron} alt='#'/>
+            {/* <div><EnterIcon /></div> */}
+            <img src={Enter} alt='#' onClick={() => getShowLogin(true)}/>
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './styles.module.scss'
 import { NavLink } from 'react-router-dom' 
-import CalendarIcon from '../../assets/icons/calendar'
 import icon from '../../assets/icons/bell.svg'
 
 const Nav = () => {
